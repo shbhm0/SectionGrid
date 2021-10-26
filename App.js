@@ -33,7 +33,7 @@ const App = () => {
     dsn: ShubhamDsn,
     tracesSampleRate: 1.0,
   });
-  throw new Error('Error check for assignment-2 ALok');
+  throw new Error('Error check for assignment-3 ALok');
   // Sentry.captureMessage('Something went wrong');
   // Sentry.nativeCrash();
 
