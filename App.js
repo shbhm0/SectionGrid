@@ -30,10 +30,10 @@ const App = () => {
   const ShubhamDsn =
     'https://9d8ac06749e748688a62636ba5d12fd4@o1045161.ingest.sentry.io/6020454';
   Sentry.init({
-    dsn: AlokDsn,
+    dsn: ShubhamDsn,
     tracesSampleRate: 1.0,
   });
-  throw new Error('error checking new Alok');
+  throw new Error('Error check for assignment-2 ALok');
   // Sentry.captureMessage('Something went wrong');
   // Sentry.nativeCrash();
 
