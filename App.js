@@ -25,22 +25,17 @@ const App = () => {
     {name: 'SILVER', code: '#bdc3c7'},
     {name: 'ASBESTOS', code: '#7f8c8d'},
   ]);
+  const AlokDsn =
+    'https://8aaba7aa2c2f42a6a99d130ec6659d5b@o1045193.ingest.sentryio/6020486';
+  const ShubhamDsn =
+    'https://9d8ac06749e748688a62636ba5d12fd4@o1045161.ingest.sentry.io/6020454';
   Sentry.init({
-    dsn: 'https://9d8ac06749e748688a62636ba5d12fd4@o1045161.ingest.sentry.io/6020454',
-    // integrations: [
-    //   new Sentry.ReactNativeTracing({
-    //     tracingOrigins: ['localhost', 'my-site-url.com', /^\//],
-    //     // ... other options
-    //   }),
-    // ],
+    dsn: AlokDsn,
+    tracesSampleRate: 1.0,
   });
-  // try {
-  //   aFunctionThatMightFail();
-  // } catch (err) {
-  //   Sentry.captureException(err);
-  // }
+  throw new Error('error checking new Alok');
   // Sentry.captureMessage('Something went wrong');
-  Sentry.nativeCrash();
+  // Sentry.nativeCrash();
 
   return (
     <FlatGrid
