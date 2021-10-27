@@ -41,7 +41,7 @@ const App = () => {
   // }
   // Sentry.captureMessage('Something went wrong');
   // Sentry.nativeCrash();
-  throw new Error('New issues Generated 5');
+  throw new Error('Assign it to shubham=====');
   return (
     <FlatGrid
       itemDimension={130}
