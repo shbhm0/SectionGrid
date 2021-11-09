@@ -7,7 +7,7 @@ import Second from './src/second';
 const Stack = createNativeStackNavigator();
 const App = () => {
   Sentry.init({
-    dsn: 'https://9d8ac06749e748688a62636ba5d12fd4@o1045161.ingest.sentry.io/6020454',
+    dsn: 'https://a496054ef5ef478a960a35884af3d0af@o1064581.ingest.sentry.io/6055489',
     // integrations: [
     //   new Sentry.ReactNativeTracing({
     //     tracingOrigins: ['localhost', 'my-site-url.com', /^\//],
